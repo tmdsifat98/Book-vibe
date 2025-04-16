@@ -1,12 +1,13 @@
 import React from "react";
-import Navbar from "../../Components/Header/Navbar";
 import { Outlet } from "react-router";
 import Footer from "../../Components/Footer/Footer";
+import "../../App.css"
+import Header from "../../Components/Header/Header";
 
 const Root = () => {
   return (
-    <div>
-      <Navbar />
+    <div className="w-11/12 mx-auto">
+      <Header/>
       <Outlet />
       <Footer />
     </div>
