@@ -1,6 +1,5 @@
 import React, { use } from "react";
 import Book from "./Book";
-
 const Books = ({ bookResponse }) => {
   const bookData = use(bookResponse);
   return (

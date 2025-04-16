@@ -1,5 +1,5 @@
 import React from "react";
-import BannerImg from "../../../assets/books.jpg";
+import BannerImg from "../../assets/books.jpg";
 const Banner = () => {
   return (
     <div className="hero bg-base-200 py-24">
